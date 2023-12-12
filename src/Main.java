@@ -26,7 +26,7 @@ public class Main {
 
         System.out.println("Отсортированные строки: ");
         for (String str : strings) {
-            System.out.println(str);
+            System.out.println(str + " (" + str.length() + ")");
         }
     }
 }
